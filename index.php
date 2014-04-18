@@ -85,6 +85,9 @@ a:link, a:visited {
   width:300px;
 }
 
+h1.paiement {
+  padding-top: 40px;
+}
 
 
   </style>
@@ -107,7 +110,7 @@ a:link, a:visited {
 
       <div class="span6">
 
-        <h1><i class="icon-credit-card"></i> Par carte bancaire</h1>
+        <h1 class="paiement"><i class="icon-credit-card"></i> Par carte bancaire</h1>
         <p>Ce paiement utilise <a href"http://stripe.io" target="_blank">Stripe.io</a>, beaucoup plus cool karma que paypal.</p>
         <form action="step_2.php" method="POST">
           <script
@@ -123,7 +126,7 @@ a:link, a:visited {
           </script>
         </form>
 
-        <h1><i class="icon-rocket"></i> Par transfert bancaire</h1>
+        <h1 class="paiement"><i class="icon-rocket"></i> Par transfert bancaire</h1>
         <p>Vous pouvez faire un transfert depuis votre banque en utilisant le RIB du Tetalab.</p>
         <p><a href="http://docs.tetalab.org/rib.txt" class="btn btn-primary">Téléchargez le RIB du Tetalab </a></p>
 
