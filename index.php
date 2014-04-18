@@ -85,6 +85,9 @@ a:link, a:visited {
   width:300px;
 }
 
+h1.paiement:first {
+  padding-top: 212px;
+}
 h1.paiement {
   padding-top: 40px;
 }
