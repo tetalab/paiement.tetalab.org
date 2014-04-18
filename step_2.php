@@ -51,7 +51,7 @@ $msg = "glop !";
             @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
 
 body {
-    background: url('https://i.imgur.com/hjhDewG.jpg') no-repeat center center fixed;
+    background: url('/img/background_step_2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

@@ -20,7 +20,7 @@ include('config/stripe.php');
             @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
 
 body {
-    background: url('https://i.imgur.com/8650h.jpg') no-repeat center center fixed;
+    background: url('/img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -133,7 +133,7 @@ La cotisation de base est de 50€ par an.</p>
   <script
     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
     data-key="<?php echo $stripe_config['button_key']; ?>"
-    data-image="tetalab.png"
+    data-image="/img/logo.png"
     data-name="Cotisation Tetalab"
     data-description="Adh&eacute;sion annuelle (50 euros)"
     data-amount="5000"
