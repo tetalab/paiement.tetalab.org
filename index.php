@@ -27,7 +27,7 @@ body {
     color:#fff;
     background-color:#333;
     font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 a:link, a:visited {
@@ -104,9 +104,9 @@ a:link, a:visited {
           <h1 class="pull-center"><strong>ADHESION AU TETALAB</strong></h1>
           <p class="lead pull-center">Paiment de la cotisation annuelle</p>
           <p>Pour être en accord avec la rule n°1 du <a href="http://rtfm.tetalab.org" class="btn btn-danger">manuel </a> : Payez votre cotisation</p>
-          <p>Le fonctionnement du Tetalab nous coûte de l'argent, les membres contribuent à ces frais.</p>
-          <p>Le Tetalab est indépendant, ne reclame et ne bénéficie d'aucune subvention.</p>
-          <p>La côtisation de base est de 50€ par an.</p>
+          <p>Le Tetalab est une association loi 1901, ne reclame et ne bénéficie d'aucune subvention.</p>
+          <p>Les membres de cette association participent à ses frais de fonctionnement par une côtisation annuelle.</p>
+          <p>Cette côtisation est de 50€ par an.</p>
         </div>
 
       </div>
