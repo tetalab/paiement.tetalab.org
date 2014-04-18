@@ -85,9 +85,10 @@ a:link, a:visited {
   width:300px;
 }
 
-h1.paiement:first {
-  padding-top: 212px;
+.span6.paiement {
+  padding-top: 172px;
 }
+
 h1.paiement {
   padding-top: 40px;
 }
@@ -111,7 +112,7 @@ h1.paiement {
 
       </div>
 
-      <div class="span6">
+      <div class="span6 paiement">
 
         <h1 class="paiement"><i class="icon-credit-card"></i> Par carte bancaire</h1>
         <p>Ce paiement utilise <a href"http://stripe.io" target="_blank">Stripe.io</a>, beaucoup plus cool karma que paypal.</p>
