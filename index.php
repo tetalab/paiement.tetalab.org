@@ -92,53 +92,40 @@ a:link, a:visited {
 <body>
   <div class="container">
     <div class="row-fluid">
+
       <div class="span6">
 
-        <div class="row-fluid">
-          <div class="span10 offsetHalf">
-            <img width="300" src="https://i.imgur.com/yaEkLQW.jpg"> 
-          </div>
-        </div>
-
-        <div class="row-fluid">
-          <h1 class="pull-center"><strong>ADHESION AU TETALAB</strong></h1>
-          <p class="lead pull-center">Paiment de la cotisation annuelle</p>
-          <p>Pour être en accord avec la rule n°1 du <a href="http://rtfm.tetalab.org" class="btn btn-danger">manuel </a> : Payez votre cotisation</p>
-          <p>Le Tetalab est une association loi 1901, ne reclame et ne bénéficie d'aucune subvention.</p>
-          <p>Les membres de cette association participent à ses frais de fonctionnement par une côtisation annuelle.</p>
-          <p>Cette côtisation est de 50€ par an.</p>
-        </div>
+        <img width="300" src="https://i.imgur.com/yaEkLQW.jpg"> 
+        <h1 class="pull-center"><strong>ADHESION AU TETALAB</strong></h1>
+        <p class="lead pull-center">Paiment de la cotisation annuelle</p>
+        <p>Pour être en accord avec la rule n°1 du <a href="http://rtfm.tetalab.org" class="btn btn-danger">manuel </a> : Payez votre cotisation</p>
+        <p>Le Tetalab est une association loi 1901, ne reclame et ne bénéficie d'aucune subvention.</p>
+        <p>Les membres de cette association participent à ses frais de fonctionnement par une côtisation annuelle.</p>
+        <p>Cette côtisation est de 50€ par an.</p>
 
       </div>
+
       <div class="span6">
 
-        <div class="row-fluid">
-          <div class="span12">
-            <h1><i class="icon-credit-card"></i> Par carte bancaire</h1>
-            <p>Ce paiement utilise <a href"http://stripe.io" target="_blank">Stripe.io</a>, beaucoup plus cool karma que paypal.</p>
-            <form action="step_2.php" method="POST">
-              <script
-                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="<?php echo $stripe_config['button_key']; ?>"
-                data-image="/img/logo.png"
-                data-name="Cotisation Tetalab"
-                data-description="Adh&eacute;sion annuelle (50 euros)"
-                data-amount="5000"
-                data-currency="EUR"
-                data-billing-address=true
-                data-label="Payer sa cotisation par CB">
-              </script>
-            </form>
-          </div>
-        </div>
+        <h1><i class="icon-credit-card"></i> Par carte bancaire</h1>
+        <p>Ce paiement utilise <a href"http://stripe.io" target="_blank">Stripe.io</a>, beaucoup plus cool karma que paypal.</p>
+        <form action="step_2.php" method="POST">
+          <script
+            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="<?php echo $stripe_config['button_key']; ?>"
+            data-image="/img/logo.png"
+            data-name="Cotisation Tetalab"
+            data-description="Adh&eacute;sion annuelle (50 euros)"
+            data-amount="5000"
+            data-currency="EUR"
+            data-billing-address=true
+            data-label="Payer sa cotisation par CB">
+          </script>
+        </form>
 
-        <div class="row-fluid">
-          <div class="span12">
-            <h1><i class="icon-rocket"></i> Par transfert bancaire</h1>
-            <p>Vous pouvez faire un transfert depuis votre banque en utilisant le RIB du Tetalab.</p>
-            <p><a href="http://docs.tetalab.org/rib.txt" class="btn btn-primary">Téléchargez le RIB du Tetalab </a></p>
-          </div>
-        </div>
+        <h1><i class="icon-rocket"></i> Par transfert bancaire</h1>
+        <p>Vous pouvez faire un transfert depuis votre banque en utilisant le RIB du Tetalab.</p>
+        <p><a href="http://docs.tetalab.org/rib.txt" class="btn btn-primary">Téléchargez le RIB du Tetalab </a></p>
 
       </div>
     </div>
