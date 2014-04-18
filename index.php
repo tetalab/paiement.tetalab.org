@@ -102,10 +102,10 @@ a:link, a:visited {
         <div class="row-fluid">
           <h1 class="pull-center"><strong>ADHESION AU TETALAB</strong></h1>
           <p class="lead pull-center">Paiment de la cotisation annuelle</p>
-    Pour être en accord avec la rule no 1 du <a href="http://rtfm.tetalab.org" class="btn btn-danger">manuel </a> : Payez votre cotisation</p><p>
-    Le fonctionnement du Tetalab nous coûte de l'argent, les membres contribuent aux frais de fonctionnement.
-    <br>Le Tetalab est indepandant, ne reclame et ne beneficie d'aucune subvention.
-    La cotisation de base est de 50€ par an.</p>
+          <p>Pour être en accord avec la rule no 1 du <a href="http://rtfm.tetalab.org" class="btn btn-danger">manuel </a> : Payez votre cotisation</p>
+          <p>Le fonctionnement du Tetalab nous coûte de l'argent, les membres contribuent aux frais de fonctionnement.</p>
+          <p>Le Tetalab est indepandant, ne reclame et ne beneficie d'aucune subvention.</p>
+          <p>La cotisation de base est de 50€ par an.</p>
         </div>
 
       </div>
@@ -113,18 +113,8 @@ a:link, a:visited {
 
         <div class="row-fluid">
           <div class="span12">
-            <h1>Le Paiment utilise Stripe.io</h1>
-            <p>Beaucoup plus cool karma que paypal. <br>
-            C'est une des 2 methodes à privilégier. La seconde est le virement bancaire<br>
-            <i class="icon-rocket icon-4x"></i><br>
-            <a href="http://docs.tetalab.org/rib.txt" class="btn btn-primary">Téléchargez le RIB du Tetalab </a></p>
-          </div>
-        </div>
-
-        <div class="row-fluid">
-          <div class="span12">
-            <h1>Passer à la caisse</h1>
-            <i class="icon-credit-card icon-4x"></i>
+            <h1><i class="icon-credit-card icon-4x"></i> Paiement par carte bancaire</h1>
+            <p>Ce paiement utilise <a href"http://stripe.io" target="_blank">Stripe.io</a>, beaucoup plus cool karma que paypal.<br>
             <form action="step_2.php" method="POST">
               <script
                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -138,6 +128,14 @@ a:link, a:visited {
                 data-label="Payer sa cotisation par CB">
               </script>
             </form>
+          </div>
+        </div>
+
+        <div class="row-fluid">
+          <div class="span12">
+            <h1><i class="icon-rocket icon-4x"></i> Paiement par transfert bancaire</h1>
+            <p>Vous pouvez aussi faire un transfert depuis le site de votre banque en utilisant le RIB du Tetalab.<br>
+            <a href="http://docs.tetalab.org/rib.txt" class="btn btn-primary">Téléchargez le RIB du Tetalab </a></p>
           </div>
         </div>
 
