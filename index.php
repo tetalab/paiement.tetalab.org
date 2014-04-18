@@ -27,6 +27,7 @@ body {
     color:#fff;
     background-color:#333;
     font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+    margin-top: 100px;
 }
 
 a:link, a:visited {
@@ -102,10 +103,10 @@ a:link, a:visited {
         <div class="row-fluid">
           <h1 class="pull-center"><strong>ADHESION AU TETALAB</strong></h1>
           <p class="lead pull-center">Paiment de la cotisation annuelle</p>
-          <p>Pour être en accord avec la rule no 1 du <a href="http://rtfm.tetalab.org" class="btn btn-danger">manuel </a> : Payez votre cotisation</p>
-          <p>Le fonctionnement du Tetalab nous coûte de l'argent, les membres contribuent aux frais de fonctionnement.</p>
-          <p>Le Tetalab est indepandant, ne reclame et ne beneficie d'aucune subvention.</p>
-          <p>La cotisation de base est de 50€ par an.</p>
+          <p>Pour être en accord avec la rule n°1 du <a href="http://rtfm.tetalab.org" class="btn btn-danger">manuel </a> : Payez votre cotisation</p>
+          <p>Le fonctionnement du Tetalab nous coûte de l'argent, les membres contribuent à ces frais.</p>
+          <p>Le Tetalab est indépendant, ne reclame et ne bénéficie d'aucune subvention.</p>
+          <p>La côtisation de base est de 50€ par an.</p>
         </div>
 
       </div>
@@ -113,7 +114,7 @@ a:link, a:visited {
 
         <div class="row-fluid">
           <div class="span12">
-            <h1><i class="icon-credit-card"></i> Paiement par carte bancaire</h1>
+            <h1><i class="icon-credit-card"></i> Par carte bancaire</h1>
             <p>Ce paiement utilise <a href"http://stripe.io" target="_blank">Stripe.io</a>, beaucoup plus cool karma que paypal.<br>
             <form action="step_2.php" method="POST">
               <script
@@ -133,8 +134,8 @@ a:link, a:visited {
 
         <div class="row-fluid">
           <div class="span12">
-            <h1><i class="icon-rocket"></i> Paiement par transfert bancaire</h1>
-            <p>Vous pouvez aussi faire un transfert depuis le site de votre banque en utilisant le RIB du Tetalab.<br>
+            <h1><i class="icon-rocket"></i> Par transfert bancaire</h1>
+            <p>Vous pouvez faire un transfert depuis votre banque en utilisant le RIB du Tetalab.<br>
             <a href="http://docs.tetalab.org/rib.txt" class="btn btn-primary">Téléchargez le RIB du Tetalab </a></p>
           </div>
         </div>
