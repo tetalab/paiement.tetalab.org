@@ -115,7 +115,7 @@ a:link, a:visited {
         <div class="row-fluid">
           <div class="span12">
             <h1><i class="icon-credit-card"></i> Par carte bancaire</h1>
-            <p>Ce paiement utilise <a href"http://stripe.io" target="_blank">Stripe.io</a>, beaucoup plus cool karma que paypal.<br>
+            <p>Ce paiement utilise <a href"http://stripe.io" target="_blank">Stripe.io</a>, beaucoup plus cool karma que paypal.</p>
             <form action="step_2.php" method="POST">
               <script
                 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -135,8 +135,8 @@ a:link, a:visited {
         <div class="row-fluid">
           <div class="span12">
             <h1><i class="icon-rocket"></i> Par transfert bancaire</h1>
-            <p>Vous pouvez faire un transfert depuis votre banque en utilisant le RIB du Tetalab.<br>
-            <a href="http://docs.tetalab.org/rib.txt" class="btn btn-primary">Téléchargez le RIB du Tetalab </a></p>
+            <p>Vous pouvez faire un transfert depuis votre banque en utilisant le RIB du Tetalab.</p>
+            <p><a href="http://docs.tetalab.org/rib.txt" class="btn btn-primary">Téléchargez le RIB du Tetalab </a></p>
           </div>
         </div>
 
